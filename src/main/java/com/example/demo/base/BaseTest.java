@@ -17,12 +17,12 @@ public class BaseTest {
         driver.manage().window().maximize();
     }
 
-    @AfterMethod
-    public void tearDown() 
-    {
-       if (driver != null) 
-       {
-         driver.quit();
-       }
-    }
+//    @AfterMethod
+//    public void tearDown() 
+//    {
+//       if (driver != null) 
+//       {
+//         driver.quit();
+//       }
+//    }
 }
