@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.example.demo.tests.GoogleTest">
+      <class name="com.orangehrm.tests.LoginTest">
         <methods>
+          <include name="tearDown"/>
+          <include name="testLoginAndMyInfoNavigation"/>
           <include name="setUp"/>
-          <include name="verifyGoogleTitleTest"/>
         </methods>
-      </class> <!-- com.example.demo.tests.GoogleTest -->
+      </class> <!-- com.orangehrm.tests.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
