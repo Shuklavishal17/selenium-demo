@@ -5,7 +5,6 @@
     <classes>
       <class name="com.orangehrm.tests.LoginTest">
         <methods>
-          <include name="tearDown"/>
           <include name="testLoginAndMyInfoNavigation"/>
           <include name="setUp"/>
         </methods>

@@ -2,24 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-13T18:45:43 IST" name="Default suite" finished-at="2025-10-13T18:45:59 IST" duration-ms="15371">
+  <suite started-at="2025-10-14T13:11:58 IST" name="Default suite" finished-at="2025-10-14T13:12:14 IST" duration-ms="16159">
     <groups>
     </groups>
-    <test started-at="2025-10-13T18:45:43 IST" name="Default test" finished-at="2025-10-13T18:45:59 IST" duration-ms="15371">
-      <class name="com.orangehrm.tests.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.tests.LoginTest@17f62e33]" started-at="2025-10-13T18:45:43 IST" name="setUp" finished-at="2025-10-13T18:45:52 IST" duration-ms="8258" status="PASS">
+    <test started-at="2025-10-14T13:11:58 IST" name="Default test" finished-at="2025-10-14T13:12:14 IST" duration-ms="16159">
+      <class name="com.orangehrm.tests.ProfileImageUploadTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.tests.ProfileImageUploadTest@69e153c5]" started-at="2025-10-14T13:11:58 IST" name="setUp" finished-at="2025-10-14T13:12:07 IST" duration-ms="8982" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginAndMyInfoNavigation()[pri:0, instance:com.orangehrm.tests.LoginTest@17f62e33]" started-at="2025-10-13T18:45:52 IST" name="testLoginAndMyInfoNavigation" finished-at="2025-10-13T18:45:58 IST" duration-ms="6570" status="PASS">
+        <test-method signature="testProfileImageUpload()[pri:0, instance:com.orangehrm.tests.ProfileImageUploadTest@69e153c5]" started-at="2025-10-14T13:12:07 IST" name="testProfileImageUpload" finished-at="2025-10-14T13:12:14 IST" duration-ms="7114" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLoginAndMyInfoNavigation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tests.LoginTest@17f62e33]" started-at="2025-10-13T18:45:58 IST" name="tearDown" finished-at="2025-10-13T18:45:59 IST" duration-ms="452" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.orangehrm.tests.LoginTest -->
+        </test-method> <!-- testProfileImageUpload -->
+      </class> <!-- com.orangehrm.tests.ProfileImageUploadTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

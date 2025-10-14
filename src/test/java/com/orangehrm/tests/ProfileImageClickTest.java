@@ -3,13 +3,14 @@ package com.orangehrm.tests;
 import com.orangehrm.base.BaseTest;
 import com.orangehrm.pages.DashboardPage;
 import com.orangehrm.pages.LoginPage;
+import com.orangehrm.pages.MyInfoPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class LoginTest extends BaseTest {
+public class ProfileImageClickTest extends BaseTest {
 
     @Test
-    public void testLoginAndMyInfoNavigation() {
+    public void testProfileImageClick() {
 
         // Login
         LoginPage loginPage = new LoginPage(driver);
@@ -19,10 +20,14 @@ public class LoginTest extends BaseTest {
         DashboardPage dashboard = new DashboardPage(driver);
         dashboard.openMyInfo();
 
-        // Validate Personal Details page
-        Assert.assertTrue(driver.getCurrentUrl().contains("viewPersonalDetails"),
-                "❌ Personal Details page did not open!");
+        // Click Profile Image
+        MyInfoPage myInfoPage = new MyInfoPage(driver);
+        myInfoPage.clickProfileImage();
 
-        System.out.println("✅ Login and My Info navigation test passed!");
+        // Verify Photograph Upload page
+        Assert.assertTrue(myInfoPage.isPhotographPageOpened(),
+                "❌ Photograph Upload page did not open!");
+
+        System.out.println("✅ Profile Image click test passed!");
     }
 }
